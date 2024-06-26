@@ -197,8 +197,13 @@ _Manually Download STELLA through Google Drive to your downloads folder._
 
 3. Press the `Enter` button
 
-4. Wait for the operation to complete
-    (You will be notified by a message on the prompt saying `File downloaded as stella.zip`)
+4. Wait for the operation to complete, It should write about 70,000,000 - 90,000,000 bytes before exiting (should look similar ot the below image)
+
+![I](Images/bar1.png)
+
+(It'll be complete when the blue bar disappears, See below image)
+
+![I](Images/jj1.png)
 
 5.  Locate the zipfile in your chosen directory called `stella.zip`
 
@@ -224,13 +229,10 @@ _Manually Download STELLA through Google Drive to your downloads folder._
 ---
 ### Code
 ```
-$fileId = "1NCT7Woaee1r-MhdZWZtw594M0t22gkXY"
-$outputFile = "stella.zip"
-$response = curl -c cookies.txt -s -L "https://drive.google.com/uc?export=download&id=$fileId"
-$confirmCode = ($response -match 'confirm=([^&]*)')[0].Split('=')[1]
-curl -L -b cookies.txt "https://drive.google.com/uc?export=download&confirm=$confirmCode&id=$fileId" -o $outputFile
-Remove-Item cookies.txt															
-Write-Output "File downloaded as $outputFile"
+$url = "https://drive.usercontent.google.com/download?id=1qa_TaBkjumHaJJE1L-pe6FsDrkJO-S0o&export=download&authuser=0&confirm=t&uuid=8b8e4ca4-91b6-43f9-af9f-b75b1e6ebe56&at=APZUnTU0lIWJXrKJYDedOlY0D4U9%3A1719434822671"
+$output = ".\stella.zip"
+
+Invoke-WebRequest -Uri $url -OutFile $output
 ```
 ---
 
