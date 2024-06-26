@@ -6,13 +6,13 @@ Below are the types of installation you can use:
 
 ***
 ### Table of Contents:
-- [Requirements and Reccomendations]
-    - [Software]
-    - [Hardware]
-- [Installation Methods]
-	- [Command Line]
-	- [Manual Download]
-- [Installation FAQ]
+- [Requirements and Reccomendations](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/Installation.md#requirements-and-reccomendations)
+    - [Software](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/Installation.md#software)
+    - [Hardware](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/Installation.md#hardware)
+- [Installation Methods](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/Installation.md#installation-methods)
+	- [Command Line](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/Installation.md#command-line-1)
+	- [Manual Download](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/Installation.md#manual-download-1)
+- [Installation FAQ](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/Installation.md#installation-faq)
 
 ---
 
@@ -81,9 +81,9 @@ _Included in Published Application, Included for troubleshooting purposes_
 ---
 
 ### Installation Methods
-#### [Command Line]
+#### [Command Line](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/Installation.md#command-line-1)
 _This uses the terminal / powershell / the command line interface and a sequence of win commands to install the compiled STELLA to a chosen directory._
-#### [Manual Download]
+#### [Manual Download](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/Installation.md#manual-download-1)
 _Manually Download STELLA through Google Drive to your downloads folder._
 *** *** ***
 ### Command Line
@@ -111,7 +111,7 @@ _Manually Download STELLA through Google Drive to your downloads folder._
 	Your Screen should look like this:
 	![pss](Images/pss.png)
 	Note: You may have something other than `Default`, this is normal.
-2. Copy and paste the code ([Code]) into the prompt:
+2. Copy and paste the code ([Code](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/Installation.md#code)) into the prompt:
 	<details>
         <summary>Expand: Copy and Paste Steps</summary>
         <ol>
@@ -216,14 +216,15 @@ _Manually Download STELLA through Google Drive to your downloads folder._
         <ol>
     </details>
 
-7. There should now be a bunch of miscellaneous files, including one named `stella.exe`, this is the application and is what you should run. (See [This link](https://www.lifewire.com/how-to-add-shortcut-to-desktop-windows-10-4767486) on making shortcuts).
+7. There should now be a bunch of miscellaneous files, including one named `cat.exe`, (see below image), this is the application and is what you should run. (See [This link](https://www.lifewire.com/how-to-add-shortcut-to-desktop-windows-10-4767486) on making shortcuts).
 
-#### Now you're done! Stella is installed and you can use it by double clicking on `stella.exe`.
+![Stellaexe](Images/stellaexe.png)
+#### Now you're done! Stella is installed and you can use it by double clicking on `cat.exe`.
 
 ---
 ### Code
 ```
-$fileId = ""
+$fileId = "1NCT7Woaee1r-MhdZWZtw594M0t22gkXY"
 $outputFile = "stella.zip"
 $response = curl -c cookies.txt -s -L "https://drive.google.com/uc?export=download&id=$fileId"
 $confirmCode = ($response -match 'confirm=([^&]*)')[0].Split('=')[1]
@@ -234,9 +235,12 @@ Write-Output "File downloaded as $outputFile"
 ---
 
 ### Manual Download
-1. Click [here](https://google.com)
+1. Click [here](https://drive.google.com/file/d/1NCT7Woaee1r-MhdZWZtw594M0t22gkXY/view?usp=sharing)
 2. Click `Download`
-![DownloadImage](Images/dl.png)
+![DownloadImage](Images/dl.png) or 
+
+![I](Images/d1.png)
+
 3. Wait for it to download
 4. <details>
     <summary>Go to your downloads</summary>
@@ -277,24 +281,36 @@ Write-Output "File downloaded as $outputFile"
 
 6. Wait for it to extract
 
-7. There should now be a bunch of miscellaneous files, including one named `stella.exe`, this is the application and is what you should run. (See [This link](https://www.lifewire.com/how-to-add-shortcut-to-desktop-windows-10-4767486) on making shortcuts).
+7. There should now be a bunch of miscellaneous files, including one named `cat.exe`, (see below image), this is the application and is what you should run. (See [This link](https://www.lifewire.com/how-to-add-shortcut-to-desktop-windows-10-4767486) on making shortcuts).
 
-#### Now you're done! Stella is installed and you can use it by double clicking on `stella.exe`.
+![Stellaexe](Images/stellaexe.png)
+#### Now you're done! Stella is installed and you can use it by double clicking on `cat.exe`.
 
 ---
 
 ### Installation FAQ
 #### Missing Files or Dependancies
 - Turn off your antivirus 
-- Redownload again (See [Installation Methods])
+- Redownload again (See [Installation Methods](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/Installation.md#installation-methods))
 - Ensure Zip extraction completes correctly
-- Check all DLLs and ensure they match the ones listed in [Required Libraries]
+- Check all DLLs and ensure they match the ones listed in [Required Libraries](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/Installation.md#required-libraries)
 - If all else fails, download and compile from source from [here](https://google.com). (See .NET source compiling [here](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/app-development/building-a-wpf-application-wpf?view=netframeworkdesktop-4.8)).
+
+#### How do I compile from source?
+- Ensure you're invited to the repo
+- Go [here](https://github.com/trademark-claim/Kitty)
+- Press the `<Code>` button (image below)
+![Code Button](Images/codebutton.png)
+- Press the `DownloadZip` button (image below)
+![Download Zip Button](Images/downloadzip.png)
+- You now have the source code!
+- See [here](https://learn.microsoft.com/en-us/dotnet/desktop/wpf/app-development/building-a-wpf-application-wpf?view=netframeworkdesktop-4.8) for source compiling for .NET
 
 #### Screensizing incorrect
 _This shouldn't happen as STELLA is inherently designed to work on all DPIs (adjusting for any screen)__
 - Try STELLA on another moniter to see if the problem persists
 - Change DPI scaling for the affected screen(s) following this guide [here](https://winaero.com/how-to-change-dpi-display-scaling-in-windows-11/#:~:text=Change%20DPI%20in%20Windows%2011%20using%20Settings%201,will%20instantly%20apply%20the%20new%20DPI%20scaling%20value.).
+- Download the latest version of STELLA
 
 #### Shortcuts not responding
 STELLA uses hooks, low level methods that interface with the functional layer of your computer. As such, there's a timer for these hooks that terminates them if they don't respond fast enough, causing the unresponsiveness. 
@@ -302,11 +318,14 @@ This will be especially true if you're putting your computer to sleep continuous
 You can try:
 - Restart the program
 - Restart computer
-- Extend the hook timeout from registry
+- Extend the hook timeout from registry (See [here](https://stackoverflow.com/questions/2655278/what-can-cause-windows-to-unhook-a-low-level-global-keyboard-hook) for a discussion on it)
 
 #### .NET Runtime missing
 - You can download the runtime [here](https://dotnet.microsoft.com/download/dotnet/8.0), make sure you get version `8.0`
 
+#### How do I Update?
+- Just delete the folder you downloaded and run STELLA from, download the latest version, and install it in the same location
+- There is also an update module on the way, in which it'll be done from within the app -- stay tuned~
 
 ##### Note
 STELLA Generates detailed log files, which can be found at `C:\ProgramData\Kitty\Cat\NYANPASU\Logs`.

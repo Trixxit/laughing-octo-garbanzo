@@ -2,594 +2,704 @@
 ---
 ## Contents
 - [Interface Commands](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#interface-commands)
-  - [Add Cursor Preset](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#add-cursor-preset)
-  - [Add Cursor to Preset](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#add-cursor-to-preset)
-  - [Activate Voice](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#activate-voice)
-  - [Capture Audio](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#capture-audio)
-  - [Capture Video](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#capture-video)
-  - [Change Cursor](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#change-cursor)
-  - [Change Settings](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#change-settings)
-  - [Change Screen](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#change-screen)
-  - [Close](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#close)
-  - [Close Console](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#close-console)
-  - [Close Log Editor](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#close-log-editor)
-  - [Define](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#define)
-  - [Display Screen Information](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#display-screen-information)
-  - [Download Expr](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#download-expr)
-  - [Elevate Perms](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#elevate-perms)
-  - [Flush Logs](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#flush-logs)
-  - [Force Logging Flush](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#force-logging-flush)
-  - [Hide Console](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#hide-console)
-  - [Load Cursor Preset](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#load-cursor-preset)
-  - [Move](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#move)
-  - [Open Console](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#open-console)
-  - [Open Log Editor](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#open-log-editor)
-  - [Open Logs](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#open-logs)
-  - [Play Audio](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#play-audio)
-  - [Plot](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#plot)
-  - [Print Element Details](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#print-element-details)
-  - [Random Cat Picture](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#random-cat-picture)
-  - [Record Audio](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#record-audio)
-  - [Record Screen](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#record-screen)
-  - [Remove Cursor from Preset](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#remove-cursor-from-preset)
-  - [Reset Cursor](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#reset-cursor)
-  - [Save Plot](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#save-plot)
-  - [Screenshot](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#screenshot)
-  - [See Settings](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#see-settings)
-  - [Change Setting](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#change-setting)
-  - [Show Console](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#show-console)
-  - [Show Live Logger](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#show-live-logger)
-  - [Show Logger](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#show-logger)
-  - [Show Screen Info](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#show-screen-info)
-  - [Start Audio Capture](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#start-audio-capture)
-  - [Start Monitoring Process](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#start-monitoring-process)
-  - [Start Process Measuring](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#start-process-measuring)
-  - [Start Recording](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#start-recording)
-  - [Stop Audio](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#stop-audio)
-  - [Stop Audio Capture](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#stop-audio-capture)
-  - [Stop Audio Recording](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#stop-audio-recording)
-  - [Stop Monitoring Process](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#stop-monitoring-process)
-  - [Stop Process Measuring](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#stop-process-measuring)
-  - [Stop Recording](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#stop-recording)
-  - [Stop Video](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#stop-video)
-  - [Take Process Snapshot](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#take-process-snapshot)
-  - [Test Error](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#test-error)
-  - [Toggle Cursor Effects](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#toggle-cursor-effects)
-  - [View Log](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#view-log)
-  - [View Settings](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#view-settings)
-  - [Write R6 Scores](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#write-r6-scores)
-  - [Write Schema](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#write-schema)
+  1. [Add Cursor Preset](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#add-cursor-preset)
+  2. [Add Cursor to Preset](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#add-cursor-to-preset)
+  3. [Activate Voice](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#activate-voice)
+  4. [Cat](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#cat)
+  5. [Change Cursor](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#change-cursor)
+  6. [Change Settings](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#change-settings)
+  7. [Close](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#close)
+  8. [Close Log Editor](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#close-log-editor)
+  9. [Define](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#define)
+  10. [Download Expr](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#download-expr)
+  11. [Elevate Perms](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#elevate-perms)
+  12. [Force Logging Flush](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#force-logging-flush)
+  13. [Help](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#help)
+  14. [Hide Console](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#hide-console)
+  15. [List Cursor Presets](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#list-cursor-presets)
+  16. [Load Cursor Preset](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#load-cursor-preset)
+  17. [Move](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#move)
+  18. [Open Log Editor](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#open-log-editor)
+  19. [Open Logs](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#open-logs)
+  19. [Open Settings](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#open-settings)
+  20. [Play Audio](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#play-audio)
+  21. [Remove Cursor from Preset](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#remove-cursor-from-preset)
+  22. [Reset Cursor](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#reset-cursor)
+  23. [Screenshot](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#screenshot)
+  24. [Show Console](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#show-console)
+  25. [Shutdown](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#shutdown)
+  27. [Stop Audio](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#stop-audio)
+  28. [Toggle Cursor Effects](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#toggle-cursor-effects)
+  29. [Tutorial](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#tutorial)
+  30. [View Settings](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#view-settings)
+
+
 - [Shortcuts](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#shortcuts)
-- [Menus](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#menus)
+  1. [Toggle Interface](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#toggle-interface)
+  2. [Shutdown](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#shutdown)
+  3. [Toggle Voice](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#toggle-voice)
+  4. [Open Log Editor](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#open-log-editor-1)
+  5. [Open Local Data](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#open-local-data)
+  6. [Open Live Logger](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#open-live-logger)
+  7. [Load Cursor Preset](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#load-cursor-preset-1)
+  8. [Reset Cursor](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#reset-cursor-1)
+  9. [Kill Window](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#kill-window)
+  10. [Take Screenshot(s)](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#take-screenshots)
+  11. [Take Stitch Screenshot](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#take-stitch-screenshot)
+  12. [Toggle Cursor Effects](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#toggle-cursor-effects-1)
+  13. [Send Macro](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#send-macro)
+  14. [Open Macro Menu](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#open-macro-menu)
+
+- [Voice Commands](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#voice-commands)
+  1. [Close Console](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#close-console)
+  2. [Close Interface](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#close-interface)
+  3. [Close Window](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#close-window)
+  4. [Decrease Volume](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#decrease-volume)
+  5. [Define](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#define-1)
+  6. [Expand Window](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#expand-window)
+  7. [Flush Log](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#flush-log)
+  8. [Generate Cat](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#generate-cat)
+  9. [Give Quote](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#give-quote)
+  10. [Lower Volume](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#lower-volume)
+  11. [Maximize Window](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#maximize-window)
+  12. [Minimize Window](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#minimize-window)
+  13. [Mute Sound](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#mute-sound)
+  14. [Next Song](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#next-song)
+  15. [Open Console](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#open-console)
+  16. [Open Editor](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#open-editor)
+  17. [Open Interface](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#open-interface)
+  18. [Open Log](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#open-log)
+  19. [Pause Song](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#pause-song)
+  20. [Previous Song](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#previous-song)
+  21. [Primary Screenshot](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#primary-screenshot)
+  22. [Raise Volume](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#raise-volume)
+  23. [Resume Song](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#resume-song)
+  24. [Show Cat](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#show-cat)
+  25. [Shut Down](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#shut-down)
+  26. [Silence Sound](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#silence-sound)
+  27. [Skip Song](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#skip-song)
+  28. [Stitch Screenshot](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#stitch-screenshot)
+  29. [Unmute Sound](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#unmute-sound)
+
+- [Mouse Commands](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#mouse-commands)
+	1. [Moving](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#moving)
+	1. [Clicking](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#clicking)
+
+- [Menu](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#mouse-commands)
+	1. [Settings Menu](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#settings-menu)
+	1. [Log Editor Menu](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#log-editor-menu)
 ---
 ## Interface Commands
+#### Intro
+*Interface commands are command run in the main interface (see image below). Just run one of their aliases and any needed parameters, hit enter and bang! You've just executed a command.*
+![Input TextBox](Images/inputtextbox.png)
+#### Structure breakdown
+<u>Aliases</u>: Aliases are the different names for the commands, one command has one or more aliases. This just gives flexibility to the commands and allows you to use shorthands or easier to remember versions!
+
+<u>Description</u>: This is quite literally how it sounds -- the command's description.
+
+<u>Associated Shortcut</u>: This is the shortcut associated with the command (if any)
+
+<u>Parameters</u>: These are the parameters the command consumes.
+
+Parameters must be preceeded each with a `;`, as this is what tells the parser that its a parameter. i.e `command name ;parameter1 ;para meter tw ;parameter_3`
+The symbols are defined as such:
+
+- ``|`` means OR, so you can input the stuff on the left OR the stuff on the right of the bar\
+- ``[]`` means OPTIONAL PARAMETER, in other words you don't *need* to input it, they'll often have default values.
+- ``{}`` denotes a datatype, the expected type you input. `bool` is `true`/`false`, `int` is any whole number and `string` is typed text.
+
+Solets take the example parameter sequence of ``name{string}, preset{int/string}, [perm{bool}]``. Here, we have 2 expected parameters and 1 optional parameter.
+
+`name` is of the `string` type, and therefore you can put anything into it.
+
+`preset` is of a dual type, both `int` and `string`, so you can EITHER put in an integer OR a string, and it'll process them as required.
+`perm` is the optional parameter, expecting a `bool` input, so `true` or `false`. You don't need to put anything here, as if you don't it'll just default to a base value (usually `false`)
+
 ### Add Cursor Preset
 - Aliases: acp, create cursor preset
-- Command Index: 31
 - Description: Creates a new cursor preset
 - Associated Shortcut: No Shortcut.
 - Parameters: listname{string}
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
 ### Add Cursor to Preset
 - Aliases: actp
-- Command Index: 32
 - Description: Adds a cursor to a preset
 - Associated Shortcut: No Shortcut.
 - Parameters: preset{string}, cursorid{string}, filepath{string}
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
 ### Activate Voice
-- Aliases: No Aliases.
-- Command Index: 38
+- Aliases: av, toggle stt, toggle voice
 - Description: Activates voice recognition
 - Associated Shortcut: No Shortcut.
-- Parameters: No Parameters.
+- Parameters: None
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Capture Audio
-- Aliases: ca, begin audio capture, start audio capture, record audio, start recording audio
-- Command Index: 5
-- Description: Starts capturing system audio, with optional audio input (0/exclusive, 1/inclusive).
-  E.g: capture audio ;exclusive
-  E.g: capture audio ;1
-- Associated Shortcut: No Shortcut.
-- Parameters: [mode{int/string}]
+
+### Cat
+- Aliases: cat, random cat picture, rcp, random cat, cat picture, kitty, kitty cat
+- Description: Shows a random kitty
+- Associated Shortcut: Shift Q K
+- Parameters: [cats{int}]
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Capture Video
-- Aliases: cv, begin video capture, start video capture, record screen, start recording
-- Command Index: 4
-- Description: Begins capturing screen as a video, mutlimonitor support coming soon. Closes the interface when ran.
-- Associated Shortcut: Shifts Q R
-- Parameters: No Parameters.
 
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
 ### Change Cursor
 - Aliases: cc, change mouse
-- Command Index: 15
-- Description: (Attempts to) Changes the cursor to the specified cursor file, specifying file path.
-  E.g: change cursor ;the/path/to/your/.cur/file
+- Description: Attempts to change the cursor to the specified cursor file, specifying file path.
 - Associated Shortcut: No Shortcut.
 - Parameters: path{string}
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
 ### Change Settings
-- Aliases: cs, edit settings, set
-- Command Index: 9
-- Description: Changes a control setting, you must specify the 
-  E.g: change setting ;LogAssemblies ;true
-  E.g: change setting ;background ;green
+- Aliases: cs, edit settings, change setting, set
+- Description: Changes a control setting
 - Associated Shortcut: No Shortcut.
 - Parameters: variablename{string}, value{string}
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Change Screen
-- Aliases: move, relocate
-- Command Index: 2
-- Description: Shifts the interface screen to another monitor, takes in a number corresponding to the monitor you want it to shift to (1 being primary)
-- Associated Shortcut: Shifts Q (number)
-- Parameters: screennum{int}
 
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
 ### Close
-- Aliases: hide, cls
-- Command Index: 1
-- Description: Closes the interface, the shortcut will open it.
-- Associated Shortcut: Shifts Q I
-- Parameters: No Parameters.
+- Aliases: close, hide, cls
+- Description: Closes STELLA's interface, the shortcut will open it.
+- Associated Shortcut: Shift Q I
+- Parameters: None
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Close Console
-- Aliases: hll, close live logger, hide live logger, close logger, hide logger
-- Command Index: 23
-- Description: Closes an open live logger
-  E.g: cll
-- Associated Shortcut: Shifts Q .
-- Parameters: No Parameters.
 
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
 ### Close Log Editor
 - Aliases: cle
-- Command Index: 39
 - Description: Closes the log editor
 - Associated Shortcut: No Shortcut.
-- Parameters: No Parameters.
+- Parameters: None
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
 ### Define
-- Aliases: No Aliases.
-- Command Index: 40
+- Aliases: define
 - Description: Defines a word using the DictionaryAPI or the UrbanDictionaryAPI (if allowed)
 - Associated Shortcut: No Shortcut.
 - Parameters: word{string}
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Display Screen Information
-- Aliases: dsi, show screen info, ssi, show screen information
-- Command Index: 21
-- Description: Displays either all screen information, or just a specified one.
-  dsi ;1
-- Associated Shortcut: No Shortcut.
-- Parameters: [screennumber{int}]
 
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
 ### Download Expr
-- Aliases: No Aliases.
-- Command Index: 27
+- Aliases: dexpr, d expr, download external item
 - Description: Downloads exprs
 - Associated Shortcut: No Shortcut.
 - Parameters: processname{string}
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
 ### Elevate Perms
 - Aliases: ep
-- Command Index: 36
-- Description: Restarts the application asking for elevation (admin)
+- Description: Restarts STELLA asking for elevation (admin)
 - Associated Shortcut: No Shortcut.
-- Parameters: No Parameters.
+- Parameters: None
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Flush Logs
-- Aliases: flf, force log flush, force flush logs
-- Command Index: 26
-- Description: Forces a logging flush
-- Associated Shortcut: Shifts Q F
-- Parameters: No Parameters.
 
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
 ### Force Logging Flush
-- Aliases: No Aliases.
-- Command Index: 26
+- Aliases: flf, flush logs, force log flush, force flush logs
 - Description: Forces a logging flush
-- Associated Shortcut: Shifts Q F
-- Parameters: No Parameters.
+- Associated Shortcut: Shift Q F
+- Parameters: None
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Help
+- Aliases: help, h, cmdinfo, cmd, command info
+- Description: Shows a list of commands, specific command info or general info.
+- Associated Shortcut: No Shortcut.
+- Parameters: [cmdname{string}]
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
 ### Hide Console
-- Aliases: close console, close live logger, hide live logger, close logger, hide logger
-- Command Index: 23
+- Aliases: hll, close console, close live logger, hide live logger, close logger, hide logger
 - Description: Closes an open live logger
-  E.g: cll
-- Associated Shortcut: Shifts Q .
-- Parameters: No Parameters.
+- Associated Shortcut: Shift Q .
+- Parameters: None
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### List Cursor Presets
+- Aliases: lcps, list cursor preset
+- Description: Lists all presets, or optionally all cursors changed in a preset
+- Associated Shortcut: No Shortcut.
+- Parameters: [preset{string}]
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
 ### Load Cursor Preset
 - Aliases: lcp, load cursors
-- Command Index: 30
 - Description: Loads a specified cursor preset
 - Associated Shortcut: No Shortcut.
 - Parameters: listname{string}, [persistent{bool}]
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
 ### Move
-- Aliases: change screen, relocate
-- Command Index: 2
-- Description: Shifts the interface screen to another monitor, takes in a number corresponding to the monitor you want it to shift to (1 being primary)
-- Associated Shortcut: Shifts Q (number)
+- Aliases: move, change screen, relocate
+- Description: Shifts STELLA's interface screen to another monitor
+- Associated Shortcut: Shift Q (number)
 - Parameters: screennum{int}
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Open Console
-- Aliases: sll, show live logger, open live logger, show logger, open logger
-- Command Index: 22
-- Description: Opens the live logger.
-  E.g:sll
-- Associated Shortcut: Shifts Q ,
-- Parameters: No Parameters.
 
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
 ### Open Log Editor
 - Aliases: ole
-- Command Index: 35
 - Description: Opens the log editing GUI
 - Associated Shortcut: No Shortcut.
-- Parameters: No Parameters.
+- Parameters: None
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
 ### Open Logs
-- Aliases: open log folder, ol, olf
-- Command Index: 13
+- Aliases: ol, open log folder, olf
 - Description: Opens the logs folder.
-  E.g: open logs
 - Associated Shortcut: No Shortcut.
-- Parameters: No Parameters.
+- Parameters: None
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Open Settings
+- Aliases: ops
+- Description: Opens a settings window to change your settings!
+- Associated Shortcut: No Shortcut.
+- Parameters: None
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
 ### Play Audio
-- Aliases: start playing audio, run audio file, play audio file, pa
-- Command Index: 8
-- Description: Plays an audio file, present the filepath as an argument with optional looping.
-  E.g: play audio ;C:/Downloads/Sussyaudio.mp4 ;true
+- Aliases: pa, start playing audio, run audio file, play audio file
+- Description: Plays an audio file
 - Associated Shortcut: No Shortcut.
-- Parameters: filepath{str}, [looping{bool}]
+- Parameters: filepath{string}, [looping{bool}]
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Plot
-- Aliases: plot data, plot graph, create graph, pd
-- Command Index: 17
-- Description: Plots a set of data, specifying file path(s) or data in the format: ;int, int, int, ... int ;int, int, int, ... int (two sets of data).
-  E.g: plot ;path/to/a/csv/with/two/lines/of/data
-  E.g: plot ;path/to/csv/with/x_axis/data ;path/to/2nd/csv/with/y_axis/data
-  E.g: plot ;1, 2, 3, 4, 5, 6 ;66, 33, 231, 53242, 564345
-- Associated Shortcut: No Shortcut.
-- Parameters: filepath{string} | filepath1{string} filepath2{string} | data1{int[]} data2{int[]}
 
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Print Element Details
-- Aliases: ped
-- Command Index: 25
-- Description: Prints the interface element details
-- Associated Shortcut: No Shortcut.
-- Parameters: No Parameters.
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Random Cat Picture
-- Aliases: cat, rcp, random cat, cat picture, kitty, kitty cat
-- Command Index: 19
-- Description: Shows a random kitty :3
-- Associated Shortcut: Shifts Q K
-- Parameters: No Parameters.
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Record Audio
-- Aliases: ca, begin audio capture, start audio capture, start recording audio
-- Command Index: 5
-- Description: Starts capturing system audio, with optional audio input (0/exclusive, 1/inclusive).
-  E.g: capture audio ;exclusive
-  E.g: capture audio ;1
-- Associated Shortcut: No Shortcut.
-- Parameters: [mode{int/string}]
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Record Screen
-- Aliases: cv, capture video, begin video capture, start video capture, start recording
-- Command Index: 4
-- Description: Begins capturing screen as a video, mutlimonitor support coming soon. Closes the interface when ran.
-- Associated Shortcut: Shifts Q R
-- Parameters: No Parameters.
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
 ### Remove Cursor from Preset
 - Aliases: rcfp
-- Command Index: 33
 - Description: Removes a cursor from a preset
 - Associated Shortcut: No Shortcut.
 - Parameters: preset{string}, cursorid{string}
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
 ### Reset Cursor
 - Aliases: rc, reset mouse
-- Command Index: 16
 - Description: Resets all system cursors
 - Associated Shortcut: No Shortcut.
-- Parameters: No Parameters.
+- Parameters: None
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Save Plot
-- Aliases: sp, save plotted data, save plot data, save graph
-- Command Index: 18
-- Description: Saves a currently open plot (Plot must be open) to a file.
-  E.g: save plot
-- Associated Shortcut: No Shortcut.
-- Parameters: No Parameters.
 
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
 ### Screenshot
-- Aliases: ss, take screenshot, screen capture
-- Command Index: 3
-- Description: Takes a screenshot of the screen, without the interface. -2 for a stiched image of all screens, -1 for individual screen pics, (number) for an individual screen, leave empty for the current screen Kitty is running on.
-  E.g: screenshot ;-2
-- Associated Shortcut: Shifts Q S
+- Aliases: screenshot, ss, take screenshot, screen capture
+- Description: Takes a screenshot of the screen
+- Associated Shortcut: Shift Q S
 - Parameters: [mode{int}]
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### See Settings
-- Aliases: view settings, print settings, vs
-- Command Index: 29
-- Description: Prints all user settings in the format:
-  [Section]
-    [Key]: [Value]
-- Associated Shortcut: No Shortcut.
-- Parameters: No Parameters.
 
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Change Setting
-- Aliases: cs, edit settings, change setting
-- Command Index: 9
-- Description: Changes a control setting, you must specify the 
-  E.g: change setting ;LogAssemblies ;true
-  E.g: change setting ;background ;green
-- Associated Shortcut: No Shortcut.
-- Parameters: variablename{string}, value{string}
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
 ### Show Console
 - Aliases: sll, open console, show live logger, open live logger, show logger, open logger
-- Command Index: 22
 - Description: Opens the live logger.
-  E.g:sll
-- Associated Shortcut: Shifts Q ,
-- Parameters: No Parameters.
+- Associated Shortcut: Shift Q ,
+- Parameters: None
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Show Live Logger
-- Aliases: sll, open console, open live logger, show logger, open logger
-- Command Index: 22
-- Description: Opens the live logger.
-  E.g:sll
-- Associated Shortcut: Shifts Q ,
-- Parameters: No Parameters.
+
+### Shutdown
+- Aliases: shutdown, exit, std
+- Description: Shuts down the entire program
+- Associated Shortcut: Shift Q E
+- Parameters: None
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Show Logger
-- Aliases: sll, open console, show live logger, open live logger
-- Command Index: 22
-- Description: Opens the live logger.
-  E.g:sll
-- Associated Shortcut: Shifts Q ,
-- Parameters: No Parameters.
 
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Show Screen Info
-- Aliases: dsi, display screen information, ssi, show screen information
-- Command Index: 21
-- Description: Displays either all screen information, or just a specified one.
-  dsi ;1
-- Associated Shortcut: No Shortcut.
-- Parameters: [screennumber{int}]
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Start Audio Capture
-- Aliases: ca, begin audio capture, record audio, start recording audio
-- Command Index: 5
-- Description: Starts capturing system audio, with optional audio input (0/exclusive, 1/inclusive).
-  E.g: capture audio ;exclusive
-  E.g: capture audio ;1
-- Associated Shortcut: No Shortcut.
-- Parameters: [mode{int/string}]
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Start Monitoring Process
-- Aliases: spm, monitor process, smp, mp
-- Command Index: 11
-- Description: Starts measuring a processes's information until stopped.
-  E.g: start measuring process ;devenv
-- Associated Shortcut: Shifts Q X
-- Parameters: No Parameters.
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Start Process Measuring
-- Aliases: spm, monitor process, smp, mp
-- Command Index: 11
-- Description: Starts measuring a processes's information until stopped.
-  E.g: start measuring process ;devenv
-- Associated Shortcut: Shifts Q X
-- Parameters: No Parameters.
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Start Recording
-- Aliases: cv, capture video, begin video capture, start video capture, record screen
-- Command Index: 4
-- Description: Begins capturing screen as a video, mutlimonitor support coming soon. Closes the interface when ran.
-- Associated Shortcut: Shifts Q R
-- Parameters: No Parameters.
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
 ### Stop Audio
 - Aliases: sap, stop audio playback, abort audio playback, abort audio
-- Command Index: 24
 - Description: Aborts a currently playing audio file.
-- Associated Shortcut: Shifts Q V
-- Parameters: No Parameters.
+- Associated Shortcut: Shift Q V
+- Parameters: None
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Stop Audio Capture
-- Aliases: sar, stop audio recording, stop recording audio
-- Command Index: 7
-- Description: Stops a currently running audio session, with optional opening of the file location after saving.
-  E.g: stop audio ;true
-- Associated Shortcut: No Shortcut.
-- Parameters: 
 
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Stop Audio Recording
-- Aliases: sar, stop recording audio, stop audio capture
-- Command Index: 7
-- Description: Stops a currently running audio session, with optional opening of the file location after saving.
-  E.g: stop audio ;true
-- Associated Shortcut: No Shortcut.
-- Parameters: 
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Stop Monitoring Process
-- Aliases: stop measuring process, finish process measuring, finish measuring process, finish process measurements, finish process recording, fpm, finish process monitor, finish monitoring process, fmp
-- Command Index: 12
-- Description: Stops a currently running process measuring session, with an optional saving of the data.
-  E.g: stop measuring process ;false
-- Associated Shortcut: Shifts Q C
-- Parameters: [savedata{bool}]
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Stop Process Measuring
-- Aliases: finish process measurements, finish process recording, fpm, finish process monitor, finish monitoring process, fmp
-- Command Index: 12
-- Description: Stops a currently running process measuring session, with an optional saving of the data.
-  E.g: stop measuring process ;false
-- Associated Shortcut: Shifts Q C
-- Parameters: [savedata{bool}]
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Stop Recording
-- Aliases: stop video, sv, stop video recording, stop recording video, stop video capture, stop screen capture, stop screen recording
-- Command Index: 6
-- Description: Stops a currently running recording session, with an optional opening of the recording location after saving (true)
-  E.g: stop recording ;true
-- Associated Shortcut: Shifts Q D
-- Parameters: No Parameters.
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Stop Video
-- Aliases: sv, stop video recording, stop recording video, stop video capture, stop screen capture, stop screen recording
-- Command Index: 6
-- Description: Stops a currently running recording session, with an optional opening of the recording location after saving (true)
-  E.g: stop recording ;true
-- Associated Shortcut: Shifts Q D
-- Parameters: No Parameters.
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Take Process Snapshot
-- Aliases: tps
-- Command Index: 10
-- Description: Takes a 'snapshot' of a specified process and shows information like it's memory usage, cpu usage, etc.
-  E.g: take process snapshot ;devenv
-  E.g: take process snapshot ;9926381232
-- Associated Shortcut: Shifts Q T
-- Parameters: process{string/int}
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Test Error
-- Aliases: No Aliases.
-- Command Index: 37
-- Description: [DEBUG] Throws an error
-- Associated Shortcut: No Shortcut.
-- Parameters: No Parameters.
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
 ### Toggle Cursor Effects
 - Aliases: tce
-- Command Index: 46
-- Description: Toggles Cursor effects!
+- Description: Toggles cursor effects!
 - Associated Shortcut: No Shortcut.
-- Parameters: No Parameters.
+- Parameters: None
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### View Log
-- Aliases: open log, vl
-- Command Index: 14
-- Description: Opens a specified log file for viewing, specifying index or name.
-  E.g: view log ;1
-  E.g: view log ;Lcc0648800552499facf099d368686f0c
+
+### Tutorial
+- Aliases: tutorial
+- Description: Runs the tutorial sequence for a given command.
 - Associated Shortcut: No Shortcut.
-- Parameters: filename{string/int}
+- Parameters: commandname{string}
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
 ### View Settings
-- Aliases: see settings, print settings, vs
-- Command Index: 29
-- Description: Prints all user settings in the format:
-  [Section]
-    [Key]: [Value]
+- Aliases: vs, see settings, print settings
+- Description: Prints all user settings in the format: [Section] [Key]: [Value]
 - Associated Shortcut: No Shortcut.
-- Parameters: No Parameters.
+- Parameters: None
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Write R6 Scores
-- Aliases: wr6s
-- Command Index: 41
-- Description: Writes the preset r6 data to stats.bin
-- Associated Shortcut: No Shortcut.
-- Parameters: No Parameters.
-
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Write Schema
-- Aliases: No Aliases.
-- Command Index: 44
-- Description: Writes a sequence of types to a schema in the format 'schema_name name type {type name}' (one or more pairs of 'type name'). 
-  E.g: 
-     Character string name int kills int deaths
-     ^ Name ^ Type ^ Name ^ Type ^ Name
-  E.g: 
-     Map string name double size_w double size_h List characternames
-- Associated Shortcut: No Shortcut.
-- Parameters: name{string}, types_list{string}
 
 ---
 
 ## Shortcuts
+#### Overview
+*Shortcuts can be activated everywhere but when the interface is open. Else, it doesn't matter what window is focused or what else is open (unless that 'else' blocks functional hooks). You're able to use shortcuts by pressing all the buttons listed in the `Shortcut` field of the below commands, releasing them all after pressing the last key. After the last key is pressed, the command will execute.*
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
 ### Toggle Interface
 - Shortcut: `LShift` `RShift` `Q` `I`
 - Description: Toggles the interface
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
-### Toggle Interface
-- Shortcut: `Q` `I` `C`
-- Description: Toggles the cursor effects
 
-[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
 ### Shutdown
 - Shortcut: `LShift` `RShift` `Q` `E`
-- Description: Shutsdown the program
+- Description: Triggers the shutdown sequence for STELLA
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Toggle Voice
+- Shortcut: `LShift` `RShift` `Q` `V`
+- Description: Toggles the voice activated command functionality
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Open Log Editor
+- Shortcut: `LShift` `RShift` `Q` `L`
+- Description: Opens a Log Editor window
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Open Local Data
+- Shortcut: `LShift` `RShift` `Q` `O`
+- Description: Opens the local data folder
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Open Live Logger
+- Shortcut: `LShift` `RShift` `Q` `B`
+- Description: Opens a live console
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
 ### Load Cursor Preset
 - Shortcut: `Q` `C` `1/2/3/4/5/6/7/8/9`
 - Description: Toggles the interface
 
 [^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
 ### Reset Cursor
 - Shortcut: `Q` `C` `0`
 - Description: Resets the cursor to the default
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Kill Window
+- Shortcut: `Q` `C` `K`
+- Description: Kills the active window (Non-Request method, so it just instantly pulls the plug, instead of waiting for it to completely shutdown). This command also kills the related processes, useful for crashing applications... or hiding games from a prowling teacher.
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Take Screenshot(s)
+- Shortcut: `Q` `C` `B`
+- Description: Takes a screenshot of every connected screen individually, See: [Screenshot](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#screenshot)
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Take Stitch Screenshot
+- Shortcut: `Q` `C` `N`
+- Description: Takes a screenshot and stitched all connected screens together. See: [Screenshot](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#screenshot)
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Toggle Cursor Effects
+- Shortcut: `Q` `C` `E`
+- Description: Toggles the cursor effects
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+---
+
+## Voice Commands
+
+### Close Console
+- Required Keywords: "console close"
+- Description: Closes the Console
+- Command Version: close console
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Close Interface
+- Required Keywords: "interface close"
+- Description: Closes the Interface
+- Command Version: close
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Close Window
+- Required Keywords: "close window"
+- Description: Closes the active window (Kills it from the root, without sending a WM. Better than Alt+F4)
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Decrease Volume
+- Required Keywords: "low volume", "decrease volume", "low sound", "decrease sound"
+- Description: Decreases the volume by 20
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Define
+- Required Keywords: " define"
+- Description: Defines a word and shows it on the bottom right
+- Command Version: define
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Expand Window
+- Required Keywords: "expand window", "maximize window"
+- Description: Maximizes the active window
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Flush Log
+- Required Keywords: "flush log"
+- Description: Flushes the log queue
+- Command Version: flush logs
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Generate Cat
+- Required Keywords: "show kitty", "generate kitty", "show cat", "generate cat"
+- Description: Generates a cat!
+- Command Version: cat
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Give Quote
+- Required Keywords: "give quote", "generate quote"
+- Description: Generates a nice quote for you
+- Command Version: quote
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Lower Volume
+- Required Keywords: "low volume", "decrease volume", "low sound", "decrease sound"
+- Description: Decreases the volume by 20
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Maximize Window
+- Required Keywords: "expand window", "maximize window"
+- Description: Maximizes the active window
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Minimize Window
+- Required Keywords: "minimize window", "hide window"
+- Description: Minimizes the active window
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Mute Sound
+- Required Keywords: "mute sound", "silence sound", "unmute sound", "unsilence sound"
+- Description: Mutes the audio
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Next Song
+- Required Keywords: "skip song", "next song", "skip music", "next music"
+- Description: Presses the MEDIA NEXT button for you
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Open Console
+- Required Keywords: "console open", "console show"
+- Description: Opens the console
+- Command Version: show console
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Open Editor
+- Required Keywords: "editor open", "editor show"
+- Description: Opens a log editor
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Open Interface
+- Required Keywords: "interface open", "interface show"
+- Description: Opens the interface
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Open Log
+- Required Keywords: "open log"
+- Description: Opens the currently used log file
+- Command Version: open logs
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Pause Song
+- Required Keywords: "resume song", "continue song", "pause song", "stop song", "resume music", "continue music", "pause music", "stop music"
+- Description: Presses the MEDIA PLAY PAUSE button for you
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Previous Song
+- Required Keywords: "previous song", "previous music"
+- Description: Presses the MEDIA PREV button for you
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Primary Screenshot
+- Required Keywords: "primary screenshot"
+- Description: Takes a screenshot of your primary monitor
+- Command Version: screenshot ;0
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Raise Volume
+- Required Keywords: "raise volume", "increase volume", "raise sound", "increase sound"
+- Description: Increases the volume by 20
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Resume Song
+- Required Keywords: "resume song", "continue song", "pause song", "stop song", "resume music", "continue music", "pause music", "stop music"
+- Description: Presses the MEDIA PLAY PAUSE button for you
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Show Cat
+- Required Keywords: "show kitty", "generate kitty", "show cat", "generate cat"
+- Description: Generates a cat!
+- Command Version: cat
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Shut Down
+- Required Keywords: "shutdown"
+- Description: Shuts STELLA down
+- Command Version: shutdown
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Silence Sound
+- Required Keywords: "mute sound", "silence sound", "unmute sound", "unsilence sound"
+- Description: Mutes the audio
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Skip Song
+- Required Keywords: "skip song", "next song", "skip music", "next music"
+- Description: Presses the MEDIA NEXT button for you
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Stitch Screenshot
+- Required Keywords: "stitch screenshot"
+- Description: Takes a stitch screenshot
+- Command Version: screenshot ;2
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+### Unmute Sound
+- Required Keywords: "mute sound", "silence sound", "unmute sound", "unsilence sound"
+- Description: Mutes the audio
+
+[^](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#contents)
+
+---
+
+## Mouse Commands
+*These are 'commands' (more like funtionality) triggered through mouse actions*
+
+### Moving
+- Action: Moving your mouse more than 1px in any concievable direction
+- Result: Results in a rainbow reactive trail behind your cursor
+- Requirements: Need to trigger the cursor effects through the 'toggle cursor effects' command
+
+### Clicking
+- Action: Moving your mouse more than 1px in any concievable direction
+- Result: Results in a rainbow reactive trail behind your cursor
+- Requirements: Need to trigger the cursor effects through the 'toggle cursor effects' command
+
+## Menu
+### Settings Menu
+The settings menu is a menu for the editing of the user settings in a more interactive, easier, more intuitive way than the CLI.
+The settings menu looks like this:
+
+![i](Images/sett.png)
+
+It's a more 'human' interface for changing the settings of STELLA over just the command line interface.
+
+It features:
+- Dropdown menus: Seen as the Upwards facing arrows in a circle, these are elements that allow you to expand and collapse content as you see fit, leading to smoother, more focused layouts.
+
+	![i](Images/chev.png)
+- Number Sliders: Seen as the Bar and Slider elements, these allow you to finetune just how much of a setting you want; just how large you want your fontsize to be. They also ensure that you keep within expected ranges, with accepted values.
+
+	![i](Images/bar.png)
+- Checkboxes: Seen as the either empty box, or box with a small check in it, these are for booleen settings (either on or off), and the checkboxes allow for an easy to understand, easy to use solution for you to change the values with data STELLA expects.
+
+	![i](Images/a1.png) (True) & ![i](Images/a2.png) (False)
+- Buttons: Seen as a clickable box with Text, the text clearly states it's purpose, and it's an extremely well known and used element, allowing for the maximum ease of use of the menu.
+	
+	![i](Images/but.png)
+
+---
+
+### Log Editor Menu
+The Log Editor is for the assisted, quick and easy view of the log files generated by STELLA, having a myriad of functions towards the goal of helping the understanding of them.
+The menu of the Log Editor provides the main functionality to achieve this.
+
+The Log Editor looks like this:
+![i](Images/ole.png)
+The three main components (marked on the above image) are:
+#### Component 1: Left ListBox
+This is a listbox filled with every Log file currently available. It contains a scroll bar and swipe selectiveness (so you can hold down and move across the items to cycle through them). When an item is chosen, it immedietely loads the log into the 2nd component.
+
+#### Component 2: The Log Displayal
+This is another listbox that displays each line as an item, and it uses virtualising and recycling to ensure a smooth scrolling capability for you, allowing you to cycle through the entire file quickly and efficieintly due to it's responsiveness. The logs here are affected by the third component.
+
+#### Component 3: The Log Menu
+This is the third list box, that contains buttons that affect the logs in the 2nd component.
+
+This is what it's comprised of:
+
+![i](Images/menu.png)
+
+##### Sort By
+These buttons sort the logs
+- Severity: Sorts the logs by errors, and what kind of error (Full error, Marshalling Error, Log Error)
+- Date: Sorts the logs by timestamp (functionally same as reset as of now)
+- Execution time (in dev): Sorts th logs by their execution time (requires execution time setting to be true)
+- Alphabetically: Sorts logs alphabetically
+##### Set Filter To
+These buttons filter the logs
+- Errors: Only shows errors
+- Function's Entry and Exit: Only shows the entry and exiting of functions
+- Search: Adds a search query and only displays logs with that query
+- Exclude: Adds an exclude query and only displays logs without that query
+#### Misc
+Miscellaneuous Functions
+- Search (in dev): Finds the next log with the inputted query
+- Nest (in dev): Changes the structure from a sequential one by one model into a tree model, where logs can be expanded and collapsed to show more / less detail
+- Reset: Resets the logs back to what they originally were
