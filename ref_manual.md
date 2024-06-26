@@ -47,8 +47,6 @@
   10. [Take Screenshot(s)](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#take-screenshots)
   11. [Take Stitch Screenshot](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#take-stitch-screenshot)
   12. [Toggle Cursor Effects](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#toggle-cursor-effects-1)
-  13. [Send Macro](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#send-macro)
-  14. [Open Macro Menu](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#open-macro-menu)
 
 - [Voice Commands](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#voice-commands)
   1. [Close Console](https://github.com/trademark-claim/laughing-octo-garbanzo/blob/master/ref_manual.md#close-console)
